@@ -1,3 +1,0 @@
-2018-05-24_10:22:11.33394 time="2018-05-24T10:22:11Z" level=info msg="Starting Gitaly" version="Gitaly, version 0.96.1, built 20180502.221659"
-2018-05-24_10:22:11.33414 time="2018-05-24T10:22:11Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
-2018-05-24_10:22:11.34115 time="2018-05-24T10:22:11Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
