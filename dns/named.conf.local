@@ -1,0 +1,14 @@
+zone "iglu.com" {
+    type master;
+    file "/etc/bind/zones/db.iglu.com"; # zone file path
+};
+
+zone "113.10.in-addr.arpa" {
+    type master;
+    file "/etc/bind/zones/db.10.113";  # 10.113.0.0/16 subnet
+};
+
+zone "100.172.in-addr.arpa" {
+    type master;
+    file "/etc/bind/zones/db.172.100";  # 172.100.0.0/16 subnet
+};
