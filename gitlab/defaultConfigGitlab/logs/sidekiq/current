@@ -1,0 +1,154 @@
+2018-05-24_11:31:07.24948 2018-05-24T11:31:07.249Z 550 TID-ow4jfuhuo INFO: Booting Sidekiq 5.0.5 with redis options {:path=>"/var/opt/gitlab/redis/redis.socket", :namespace=>"resque:gitlab", :id=>"Sidekiq-server-PID-550", :url=>nil}
+2018-05-24_11:31:07.44422 2018-05-24T11:31:07.444Z 550 TID-ow4jfuhuo INFO: Cron Jobs - add job with name: stuck_ci_jobs_worker
+2018-05-24_11:31:07.44701 2018-05-24T11:31:07.446Z 550 TID-ow4jfuhuo INFO: Cron Jobs - add job with name: expire_build_artifacts_worker
+2018-05-24_11:31:07.45154 2018-05-24T11:31:07.451Z 550 TID-ow4jfuhuo INFO: Cron Jobs - add job with name: pipeline_schedule_worker
+2018-05-24_11:31:07.45609 2018-05-24T11:31:07.455Z 550 TID-ow4jfuhuo INFO: Cron Jobs - add job with name: repository_check_worker
+2018-05-24_11:31:07.45850 2018-05-24T11:31:07.458Z 550 TID-ow4jfuhuo INFO: Cron Jobs - add job with name: admin_email_worker
+2018-05-24_11:31:07.46200 2018-05-24T11:31:07.461Z 550 TID-ow4jfuhuo INFO: Cron Jobs - add job with name: repository_archive_cache_worker
+2018-05-24_11:31:07.46459 2018-05-24T11:31:07.464Z 550 TID-ow4jfuhuo INFO: Cron Jobs - add job with name: pages_domain_verification_cron_worker
+2018-05-24_11:31:07.46763 2018-05-24T11:31:07.467Z 550 TID-ow4jfuhuo INFO: Cron Jobs - add job with name: import_export_project_cleanup_worker
+2018-05-24_11:31:07.47010 2018-05-24T11:31:07.470Z 550 TID-ow4jfuhuo INFO: Cron Jobs - add job with name: requests_profiles_worker
+2018-05-24_11:31:07.47283 2018-05-24T11:31:07.472Z 550 TID-ow4jfuhuo INFO: Cron Jobs - add job with name: remove_expired_members_worker
+2018-05-24_11:31:07.47571 2018-05-24T11:31:07.475Z 550 TID-ow4jfuhuo INFO: Cron Jobs - add job with name: remove_expired_group_links_worker
+2018-05-24_11:31:07.47724 2018-05-24T11:31:07.477Z 550 TID-ow4jfuhuo INFO: Cron Jobs - add job with name: prune_old_events_worker
+2018-05-24_11:31:07.48016 2018-05-24T11:31:07.479Z 550 TID-ow4jfuhuo INFO: Cron Jobs - add job with name: trending_projects_worker
+2018-05-24_11:31:07.48401 2018-05-24T11:31:07.483Z 550 TID-ow4jfuhuo INFO: Cron Jobs - add job with name: remove_unreferenced_lfs_objects_worker
+2018-05-24_11:31:07.48872 2018-05-24T11:31:07.488Z 550 TID-ow4jfuhuo INFO: Cron Jobs - add job with name: stuck_import_jobs_worker
+2018-05-24_11:31:07.49219 2018-05-24T11:31:07.492Z 550 TID-ow4jfuhuo INFO: Cron Jobs - add job with name: gitlab_usage_ping_worker
+2018-05-24_11:31:07.49647 2018-05-24T11:31:07.496Z 550 TID-ow4jfuhuo INFO: Cron Jobs - add job with name: schedule_update_user_activity_worker
+2018-05-24_11:31:07.50149 2018-05-24T11:31:07.501Z 550 TID-ow4jfuhuo INFO: Cron Jobs - add job with name: remove_old_web_hook_logs_worker
+2018-05-24_11:31:07.50313 2018-05-24T11:31:07.503Z 550 TID-ow4jfuhuo INFO: Cron Jobs - add job with name: stuck_merge_jobs_worker
+2018-05-24_11:31:27.19521 2018-05-24T11:31:27.194Z 550 TID-ow4jfuhuo INFO: Running in ruby 2.3.6p384 (2017-12-14 revision 61254) [x86_64-linux]
+2018-05-24_11:31:27.19533 2018-05-24T11:31:27.195Z 550 TID-ow4jfuhuo INFO: See LICENSE and the LGPL-3.0 for licensing details.
+2018-05-24_11:31:27.19540 2018-05-24T11:31:27.195Z 550 TID-ow4jfuhuo INFO: Upgrade to Sidekiq Pro for more features and support: http://sidekiq.org
+2018-05-24_11:31:27.19708 2018-05-24T11:31:27.196Z 550 TID-ow4jfuhuo INFO: Starting processing, hit Ctrl-C to stop
+2018-05-24_11:31:27.20328 2018-05-24T11:31:27.203Z 550 TID-ow4jfuhuo INFO: Listening on queues ["authorized_projects", "background_migration", "create_gpg_signature", "cronjob", "cronjob:admin_email", "cronjob:expire_build_artifacts", "cronjob:gitlab_usage_ping", "cronjob:import_export_project_cleanup", "cronjob:pages_domain_verification_cron", "cronjob:pipeline_schedule", "cronjob:prune_old_events", "cronjob:remove_expired_group_links", "cronjob:remove_expired_members", "cronjob:remove_old_web_hook_logs", "cronjob:remove_unreferenced_lfs_objects", "cronjob:repository_archive_cache", "cronjob:repository_check_batch", "cronjob:requests_profiles", "cronjob:schedule_update_user_activity", "cronjob:stuck_ci_jobs", "cronjob:stuck_import_jobs", "cronjob:stuck_merge_jobs", "cronjob:trending_projects", "default", "delete_merged_branches", "delete_user", "email_receiver", "emails_on_push", "expire_build_instance_artifacts", "gcp_cluster", "gcp_cluster:check_gcp_project_billing", "gcp_cluster:cluster_install_app", "gcp_cluster:cluster_provision", "gcp_cluster:cluster_wait_for_app_installation", "gcp_cluster:cluster_wait_for_ingress_ip_address", "gcp_cluster:wait_for_cluster_creation", "git_garbage_collect", "github_import_advance_stage", "github_importer", "github_importer:github_import_import_diff_note", "github_importer:github_import_import_issue", "github_importer:github_import_import_note", "github_importer:github_import_import_pull_request", "github_importer:github_import_refresh_import_jid", "github_importer:github_import_stage_finish_import", "github_importer:github_import_stage_import_base_data", "github_importer:github_import_stage_import_issues_and_diff_notes", "github_importer:github_import_stage_import_notes", "github_importer:github_import_stage_import_pull_requests", "github_importer:github_import_stage_import_repository", "gitlab_shell", "group_destroy", "invalid_gpg_signature_update", "irker", "mailers", "merge", "namespaceless_project_destroy", "new_issue", "new_merge_request", "new_note", "object_storage", "object_storage:object_storage_background_move", "object_storage:object_storage_migrate_uploads", "object_storage_upload", "pages", "pages_domain_verification", "pipeline_background", "pipeline_background:archive_trace", "pipeline_cache", "pipeline_cache:expire_job_cache", "pipeline_cache:expire_pipeline_cache", "pipeline_creation", "pipeline_creation:create_pipeline", "pipeline_creation:run_pipeline_schedule", "pipeline_default", "pipeline_default:build_coverage", "pipeline_default:build_trace_sections", "pipeline_default:pipeline_metrics", "pipeline_default:pipeline_notification", "pipeline_hooks", "pipeline_hooks:build_hooks", "pipeline_hooks:pipeline_hooks", "pipeline_processing", "pipeline_processing:build_finished", "pipeline_processing:build_queue", "pipeline_processing:build_success", "pipeline_processing:pipeline_process", "pipeline_processing:pipeline_success", "pipeline_processing:pipeline_update", "pipeline_processing:stage_update", "pipeline_processing:update_head_pipeline_for_merge_request", "plugin", "post_receive", "process_commit", "project_cache", "project_destroy", "project_export", "project_migrate_hashed_storage", "project_service", "propagate_service_template", "reactive_caching", "rebase", "repository_check", "repository_check:repository_check_clear", "repository_check:repository_check_single_repository", "repository_fork", "repository_import", "storage_migrator", "system_hook_push", "update_merge_requests", "update_user_activity", "upload_checksum", "web_hook"]
+2018-05-24_11:45:05.16167 2018-05-24T11:45:05.160Z 550 TID-ow4iq2mxo PagesDomainVerificationCronWorker JID-895c70433a43c230ed57d60f INFO: start
+2018-05-24_11:45:05.35055 2018-05-24T11:45:05.350Z 550 TID-ow4iq2mxo PagesDomainVerificationCronWorker JID-895c70433a43c230ed57d60f INFO: done: 0.189 sec
+2018-05-24_11:50:14.35394 2018-05-24T11:50:14.351Z 550 TID-ow4dq2lus ExpireBuildArtifactsWorker JID-fc2ab19e8be313e6c13ff43d INFO: start
+2018-05-24_11:50:14.48165 2018-05-24T11:50:14.481Z 550 TID-ow4dq2lus ExpireBuildArtifactsWorker JID-fc2ab19e8be313e6c13ff43d INFO: done: 0.13 sec
+2018-05-24_12:00:13.27070 2018-05-24T12:00:13.268Z 550 TID-ow4dq2n1k PruneOldEventsWorker JID-e6bb2b0162a31aa08aed565d INFO: start
+2018-05-24_12:00:13.28677 2018-05-24T12:00:13.285Z 550 TID-ow4dfk1ss PagesDomainVerificationCronWorker JID-96b5db682b43b856174c0353 INFO: start
+2018-05-24_12:00:13.33612 2018-05-24T12:00:13.335Z 550 TID-ow4iq3tls RepositoryArchiveCacheWorker JID-8716b513ce41a4837c33cb55 INFO: start
+2018-05-24_12:00:13.33924 2018-05-24T12:00:13.338Z 550 TID-ow4dq2lik StuckCiJobsWorker JID-b6b16b016604800391748c6c INFO: start
+2018-05-24_12:00:13.38114 2018-05-24T12:00:13.379Z 550 TID-ow4iq3rm4 StuckMergeJobsWorker JID-4cfa3c66ccde446b7c7fb23b INFO: start
+2018-05-24_12:00:13.38537 2018-05-24T12:00:13.385Z 550 TID-ow4dq2l6c ImportExportProjectCleanupWorker JID-95944db03a3a4bf9b0b7e6c8 INFO: start
+2018-05-24_12:00:13.88881 2018-05-24T12:00:13.887Z 550 TID-ow4dq2n1k PruneOldEventsWorker JID-e6bb2b0162a31aa08aed565d INFO: done: 0.619 sec
+2018-05-24_12:00:13.89005 2018-05-24T12:00:13.889Z 550 TID-ow4iq3tls RepositoryArchiveCacheWorker JID-8716b513ce41a4837c33cb55 INFO: done: 0.554 sec
+2018-05-24_12:00:13.89088 2018-05-24T12:00:13.890Z 550 TID-ow4dq2l6c ImportExportProjectCleanupWorker JID-95944db03a3a4bf9b0b7e6c8 INFO: done: 0.505 sec
+2018-05-24_12:00:13.89280 2018-05-24T12:00:13.892Z 550 TID-ow4dfk1ss PagesDomainVerificationCronWorker JID-96b5db682b43b856174c0353 INFO: done: 0.607 sec
+2018-05-24_12:00:13.89696 2018-05-24T12:00:13.896Z 550 TID-ow4dq2lik StuckCiJobsWorker JID-b6b16b016604800391748c6c INFO: done: 0.557 sec
+2018-05-24_12:00:13.90779 2018-05-24T12:00:13.907Z 550 TID-ow4iq3rm4 StuckMergeJobsWorker JID-4cfa3c66ccde446b7c7fb23b INFO: done: 0.528 sec
+2018-05-24_12:15:27.23213 2018-05-24T12:15:27.231Z 550 TID-ow4iq2nm4 StuckImportJobsWorker JID-b81ac00351f03c34f70400ed INFO: start
+2018-05-24_12:15:27.26296 2018-05-24T12:15:27.262Z 550 TID-ow4dq2lik PagesDomainVerificationCronWorker JID-b1dad759321a3fc8e7b4370d INFO: start
+2018-05-24_12:15:27.34036 2018-05-24T12:15:27.339Z 550 TID-ow4dq2lik PagesDomainVerificationCronWorker JID-b1dad759321a3fc8e7b4370d INFO: done: 0.077 sec
+2018-05-24_12:15:27.34639 2018-05-24T12:15:27.345Z 550 TID-ow4iq2nm4 StuckImportJobsWorker JID-b81ac00351f03c34f70400ed INFO: done: 0.114 sec
+2018-05-24_12:19:19.35132 2018-05-24T12:19:19.348Z 550 TID-ow4iq3rm4 PipelineScheduleWorker JID-5eaf6210a933ac4256436990 INFO: start
+2018-05-24_12:19:19.40489 2018-05-24T12:19:19.404Z 550 TID-ow4iq3rm4 PipelineScheduleWorker JID-5eaf6210a933ac4256436990 INFO: done: 0.057 sec
+2018-05-24_12:20:14.49909 2018-05-24T12:20:14.498Z 550 TID-ow4iq3h8s RepositoryCheck::BatchWorker JID-285413fc7e09b62b2ed07a74 INFO: start
+2018-05-24_12:20:14.56447 2018-05-24T12:20:14.564Z 550 TID-ow4iq3h8s RepositoryCheck::BatchWorker JID-285413fc7e09b62b2ed07a74 INFO: done: 0.065 sec
+2018-05-25_22:42:17.52261 2018-05-25T22:42:17.521Z 610 TID-ot1csfe20 INFO: Booting Sidekiq 5.0.5 with redis options {:path=>"/var/opt/gitlab/redis/redis.socket", :namespace=>"resque:gitlab", :id=>"Sidekiq-server-PID-610", :url=>nil}
+2018-05-25_22:42:17.83051 2018-05-25T22:42:17.823Z 610 TID-ot1csfe20 INFO: Cron Jobs - add job with name: stuck_ci_jobs_worker
+2018-05-25_22:42:17.83056 2018-05-25T22:42:17.827Z 610 TID-ot1csfe20 INFO: Cron Jobs - add job with name: expire_build_artifacts_worker
+2018-05-25_22:42:17.83246 2018-05-25T22:42:17.831Z 610 TID-ot1csfe20 INFO: Cron Jobs - add job with name: pipeline_schedule_worker
+2018-05-25_22:42:17.84657 2018-05-25T22:42:17.844Z 610 TID-ot1csfe20 INFO: Cron Jobs - add job with name: repository_check_worker
+2018-05-25_22:42:17.85443 2018-05-25T22:42:17.847Z 610 TID-ot1csfe20 INFO: Cron Jobs - add job with name: admin_email_worker
+2018-05-25_22:42:17.85446 2018-05-25T22:42:17.850Z 610 TID-ot1csfe20 INFO: Cron Jobs - add job with name: repository_archive_cache_worker
+2018-05-25_22:42:17.85447 2018-05-25T22:42:17.852Z 610 TID-ot1csfe20 INFO: Cron Jobs - add job with name: pages_domain_verification_cron_worker
+2018-05-25_22:42:17.86241 2018-05-25T22:42:17.855Z 610 TID-ot1csfe20 INFO: Cron Jobs - add job with name: import_export_project_cleanup_worker
+2018-05-25_22:42:17.86245 2018-05-25T22:42:17.857Z 610 TID-ot1csfe20 INFO: Cron Jobs - add job with name: requests_profiles_worker
+2018-05-25_22:42:17.86354 2018-05-25T22:42:17.863Z 610 TID-ot1csfe20 INFO: Cron Jobs - add job with name: remove_expired_members_worker
+2018-05-25_22:42:17.87781 2018-05-25T22:42:17.867Z 610 TID-ot1csfe20 INFO: Cron Jobs - add job with name: remove_expired_group_links_worker
+2018-05-25_22:42:17.87785 2018-05-25T22:42:17.876Z 610 TID-ot1csfe20 INFO: Cron Jobs - add job with name: prune_old_events_worker
+2018-05-25_22:42:17.89252 2018-05-25T22:42:17.892Z 610 TID-ot1csfe20 INFO: Cron Jobs - add job with name: trending_projects_worker
+2018-05-25_22:42:17.90347 2018-05-25T22:42:17.895Z 610 TID-ot1csfe20 INFO: Cron Jobs - add job with name: remove_unreferenced_lfs_objects_worker
+2018-05-25_22:42:17.90360 2018-05-25T22:42:17.900Z 610 TID-ot1csfe20 INFO: Cron Jobs - add job with name: stuck_import_jobs_worker
+2018-05-25_22:42:17.90660 2018-05-25T22:42:17.905Z 610 TID-ot1csfe20 INFO: Cron Jobs - add job with name: gitlab_usage_ping_worker
+2018-05-25_22:42:17.91326 2018-05-25T22:42:17.913Z 610 TID-ot1csfe20 INFO: Cron Jobs - add job with name: schedule_update_user_activity_worker
+2018-05-25_22:42:17.92750 2018-05-25T22:42:17.927Z 610 TID-ot1csfe20 INFO: Cron Jobs - add job with name: remove_old_web_hook_logs_worker
+2018-05-25_22:42:17.93032 2018-05-25T22:42:17.930Z 610 TID-ot1csfe20 INFO: Cron Jobs - add job with name: stuck_merge_jobs_worker
+2018-05-25_22:42:36.59478 bundler: failed to load command: sidekiq (/opt/gitlab/embedded/bin/sidekiq)
+2018-05-25_22:42:36.59501 SignalException: SIGTERM
+2018-05-25_22:42:36.59502   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/activerecord-4.2.10/lib/active_record/attributes.rb:139:in `clear_caches_calculated_from_columns'
+2018-05-25_22:42:36.59506   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/activerecord-4.2.10/lib/active_record/attribute_decorators.rb:18:in `decorate_matching_attribute_types'
+2018-05-25_22:42:36.59506   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/activerecord-4.2.10/lib/active_record/attribute_methods/time_zone_conversion.rb:54:in `block in inherited'
+2018-05-25_22:42:36.59507   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/activerecord-4.2.10/lib/active_record/attribute_methods/time_zone_conversion.rb:52:in `class_eval'
+2018-05-25_22:42:36.59507   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/activerecord-4.2.10/lib/active_record/attribute_methods/time_zone_conversion.rb:52:in `inherited'
+2018-05-25_22:42:36.59508   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/kaminari-activerecord-1.0.1/lib/kaminari/activerecord/active_record_extension.rb:11:in `inherited'
+2018-05-25_22:42:36.59508   /opt/gitlab/embedded/service/gitlab-rails/app/models/hooks/service_hook.rb:1:in `<top (required)>'
+2018-05-25_22:42:36.59508   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/activesupport-4.2.10/lib/active_support/dependencies.rb:274:in `require'
+2018-05-25_22:42:36.59509   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/activesupport-4.2.10/lib/active_support/dependencies.rb:274:in `block in require'
+2018-05-25_22:42:36.59510   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/activesupport-4.2.10/lib/active_support/dependencies.rb:240:in `load_dependency'
+2018-05-25_22:42:36.59510   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/activesupport-4.2.10/lib/active_support/dependencies.rb:274:in `require'
+2018-05-25_22:42:36.59511   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/activesupport-4.2.10/lib/active_support/dependencies.rb:360:in `require_or_load'
+2018-05-25_22:42:36.59511   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/activesupport-4.2.10/lib/active_support/dependencies.rb:317:in `depend_on'
+2018-05-25_22:42:36.59512   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/activesupport-4.2.10/lib/active_support/dependencies.rb:233:in `require_dependency'
+2018-05-25_22:42:36.59512   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/railties-4.2.10/lib/rails/engine.rb:472:in `block (2 levels) in eager_load!'
+2018-05-25_22:42:36.59512   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/railties-4.2.10/lib/rails/engine.rb:471:in `each'
+2018-05-25_22:42:36.59513   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/railties-4.2.10/lib/rails/engine.rb:471:in `block in eager_load!'
+2018-05-25_22:42:36.59514   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/railties-4.2.10/lib/rails/engine.rb:469:in `each'
+2018-05-25_22:42:36.59514   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/railties-4.2.10/lib/rails/engine.rb:469:in `eager_load!'
+2018-05-25_22:42:36.59514   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/railties-4.2.10/lib/rails/engine.rb:346:in `eager_load!'
+2018-05-25_22:42:36.59515   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/railties-4.2.10/lib/rails/application/finisher.rb:56:in `each'
+2018-05-25_22:42:36.59517   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/railties-4.2.10/lib/rails/application/finisher.rb:56:in `block in <module:Finisher>'
+2018-05-25_22:42:36.59518   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/railties-4.2.10/lib/rails/initializable.rb:30:in `instance_exec'
+2018-05-25_22:42:36.59518   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/railties-4.2.10/lib/rails/initializable.rb:30:in `run'
+2018-05-25_22:42:36.59518   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/railties-4.2.10/lib/rails/initializable.rb:55:in `block in run_initializers'
+2018-05-25_22:42:36.59519   /opt/gitlab/embedded/lib/ruby/2.3.0/tsort.rb:228:in `block in tsort_each'
+2018-05-25_22:42:36.59520   /opt/gitlab/embedded/lib/ruby/2.3.0/tsort.rb:350:in `block (2 levels) in each_strongly_connected_component'
+2018-05-25_22:42:36.59523   /opt/gitlab/embedded/lib/ruby/2.3.0/tsort.rb:431:in `each_strongly_connected_component_from'
+2018-05-25_22:42:36.59524   /opt/gitlab/embedded/lib/ruby/2.3.0/tsort.rb:349:in `block in each_strongly_connected_component'
+2018-05-25_22:42:36.59525   /opt/gitlab/embedded/lib/ruby/2.3.0/tsort.rb:347:in `each'
+2018-05-25_22:42:36.59525   /opt/gitlab/embedded/lib/ruby/2.3.0/tsort.rb:347:in `call'
+2018-05-25_22:42:36.59525   /opt/gitlab/embedded/lib/ruby/2.3.0/tsort.rb:347:in `each_strongly_connected_component'
+2018-05-25_22:42:36.59526   /opt/gitlab/embedded/lib/ruby/2.3.0/tsort.rb:226:in `tsort_each'
+2018-05-25_22:42:36.59526   /opt/gitlab/embedded/lib/ruby/2.3.0/tsort.rb:205:in `tsort_each'
+2018-05-25_22:42:36.59526   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/railties-4.2.10/lib/rails/initializable.rb:54:in `run_initializers'
+2018-05-25_22:42:36.59527   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/railties-4.2.10/lib/rails/application.rb:352:in `initialize!'
+2018-05-25_22:42:36.59527   /opt/gitlab/embedded/service/gitlab-rails/config/environment.rb:11:in `<top (required)>'
+2018-05-25_22:42:36.59528   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/activesupport-4.2.10/lib/active_support/dependencies.rb:274:in `require'
+2018-05-25_22:42:36.59529   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/activesupport-4.2.10/lib/active_support/dependencies.rb:274:in `block in require'
+2018-05-25_22:42:36.59529   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/activesupport-4.2.10/lib/active_support/dependencies.rb:240:in `load_dependency'
+2018-05-25_22:42:36.59529   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/activesupport-4.2.10/lib/active_support/dependencies.rb:274:in `require'
+2018-05-25_22:42:36.59532   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/sidekiq-5.0.5/lib/sidekiq/cli.rb:254:in `boot_system'
+2018-05-25_22:42:36.59533   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/sidekiq-5.0.5/lib/sidekiq/cli.rb:54:in `run'
+2018-05-25_22:42:36.59533   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/sidekiq-5.0.5/bin/sidekiq:12:in `<top (required)>'
+2018-05-25_22:42:36.59533   /opt/gitlab/embedded/bin/sidekiq:23:in `load'
+2018-05-25_22:42:36.59534   /opt/gitlab/embedded/bin/sidekiq:23:in `<top (required)>'
+2018-05-25_22:43:29.77754 2018-05-25T22:43:29.777Z 1914 TID-os6ccb6co INFO: Booting Sidekiq 5.0.5 with redis options {:path=>"/var/opt/gitlab/redis/redis.socket", :namespace=>"resque:gitlab", :id=>"Sidekiq-server-PID-1914", :url=>nil}
+2018-05-25_22:43:30.09910 2018-05-25T22:43:30.098Z 1914 TID-os6ccb6co INFO: Cron Jobs - add job with name: stuck_ci_jobs_worker
+2018-05-25_22:43:30.11450 2018-05-25T22:43:30.108Z 1914 TID-os6ccb6co INFO: Cron Jobs - add job with name: expire_build_artifacts_worker
+2018-05-25_22:43:30.11454 2018-05-25T22:43:30.112Z 1914 TID-os6ccb6co INFO: Cron Jobs - add job with name: pipeline_schedule_worker
+2018-05-25_22:43:30.12017 2018-05-25T22:43:30.117Z 1914 TID-os6ccb6co INFO: Cron Jobs - add job with name: repository_check_worker
+2018-05-25_22:43:30.12020 2018-05-25T22:43:30.119Z 1914 TID-os6ccb6co INFO: Cron Jobs - add job with name: admin_email_worker
+2018-05-25_22:43:30.12246 2018-05-25T22:43:30.122Z 1914 TID-os6ccb6co INFO: Cron Jobs - add job with name: repository_archive_cache_worker
+2018-05-25_22:43:30.12591 2018-05-25T22:43:30.124Z 1914 TID-os6ccb6co INFO: Cron Jobs - add job with name: pages_domain_verification_cron_worker
+2018-05-25_22:43:30.13094 2018-05-25T22:43:30.126Z 1914 TID-os6ccb6co INFO: Cron Jobs - add job with name: import_export_project_cleanup_worker
+2018-05-25_22:43:30.13096 2018-05-25T22:43:30.128Z 1914 TID-os6ccb6co INFO: Cron Jobs - add job with name: requests_profiles_worker
+2018-05-25_22:43:30.13098 2018-05-25T22:43:30.130Z 1914 TID-os6ccb6co INFO: Cron Jobs - add job with name: remove_expired_members_worker
+2018-05-25_22:43:30.15658 2018-05-25T22:43:30.155Z 1914 TID-os6ccb6co INFO: Cron Jobs - add job with name: remove_expired_group_links_worker
+2018-05-25_22:43:30.16331 2018-05-25T22:43:30.160Z 1914 TID-os6ccb6co INFO: Cron Jobs - add job with name: prune_old_events_worker
+2018-05-25_22:43:30.16651 2018-05-25T22:43:30.164Z 1914 TID-os6ccb6co INFO: Cron Jobs - add job with name: trending_projects_worker
+2018-05-25_22:43:30.17380 2018-05-25T22:43:30.167Z 1914 TID-os6ccb6co INFO: Cron Jobs - add job with name: remove_unreferenced_lfs_objects_worker
+2018-05-25_22:43:30.17388 2018-05-25T22:43:30.171Z 1914 TID-os6ccb6co INFO: Cron Jobs - add job with name: stuck_import_jobs_worker
+2018-05-25_22:43:30.18558 2018-05-25T22:43:30.185Z 1914 TID-os6ccb6co INFO: Cron Jobs - add job with name: gitlab_usage_ping_worker
+2018-05-25_22:43:30.19043 2018-05-25T22:43:30.189Z 1914 TID-os6ccb6co INFO: Cron Jobs - add job with name: schedule_update_user_activity_worker
+2018-05-25_22:43:30.19847 2018-05-25T22:43:30.194Z 1914 TID-os6ccb6co INFO: Cron Jobs - add job with name: remove_old_web_hook_logs_worker
+2018-05-25_22:43:30.19850 2018-05-25T22:43:30.197Z 1914 TID-os6ccb6co INFO: Cron Jobs - add job with name: stuck_merge_jobs_worker
+2018-05-25_22:43:48.55179 2018-05-25T22:43:48.551Z 1914 TID-os6ccb6co INFO: Running in ruby 2.3.6p384 (2017-12-14 revision 61254) [x86_64-linux]
+2018-05-25_22:43:48.55185 2018-05-25T22:43:48.551Z 1914 TID-os6ccb6co INFO: See LICENSE and the LGPL-3.0 for licensing details.
+2018-05-25_22:43:48.55220 2018-05-25T22:43:48.551Z 1914 TID-os6ccb6co INFO: Upgrade to Sidekiq Pro for more features and support: http://sidekiq.org
+2018-05-25_22:43:48.56002 2018-05-25T22:43:48.556Z 1914 TID-os6ccb6co INFO: Starting processing, hit Ctrl-C to stop
+2018-05-25_22:43:48.56357 2018-05-25T22:43:48.563Z 1914 TID-os6ccb6co INFO: Listening on queues ["authorized_projects", "background_migration", "create_gpg_signature", "cronjob", "cronjob:admin_email", "cronjob:expire_build_artifacts", "cronjob:gitlab_usage_ping", "cronjob:import_export_project_cleanup", "cronjob:pages_domain_verification_cron", "cronjob:pipeline_schedule", "cronjob:prune_old_events", "cronjob:remove_expired_group_links", "cronjob:remove_expired_members", "cronjob:remove_old_web_hook_logs", "cronjob:remove_unreferenced_lfs_objects", "cronjob:repository_archive_cache", "cronjob:repository_check_batch", "cronjob:requests_profiles", "cronjob:schedule_update_user_activity", "cronjob:stuck_ci_jobs", "cronjob:stuck_import_jobs", "cronjob:stuck_merge_jobs", "cronjob:trending_projects", "default", "delete_merged_branches", "delete_user", "email_receiver", "emails_on_push", "expire_build_instance_artifacts", "gcp_cluster", "gcp_cluster:check_gcp_project_billing", "gcp_cluster:cluster_install_app", "gcp_cluster:cluster_provision", "gcp_cluster:cluster_wait_for_app_installation", "gcp_cluster:cluster_wait_for_ingress_ip_address", "gcp_cluster:wait_for_cluster_creation", "git_garbage_collect", "github_import_advance_stage", "github_importer", "github_importer:github_import_import_diff_note", "github_importer:github_import_import_issue", "github_importer:github_import_import_note", "github_importer:github_import_import_pull_request", "github_importer:github_import_refresh_import_jid", "github_importer:github_import_stage_finish_import", "github_importer:github_import_stage_import_base_data", "github_importer:github_import_stage_import_issues_and_diff_notes", "github_importer:github_import_stage_import_notes", "github_importer:github_import_stage_import_pull_requests", "github_importer:github_import_stage_import_repository", "gitlab_shell", "group_destroy", "invalid_gpg_signature_update", "irker", "mailers", "merge", "namespaceless_project_destroy", "new_issue", "new_merge_request", "new_note", "object_storage", "object_storage:object_storage_background_move", "object_storage:object_storage_migrate_uploads", "object_storage_upload", "pages", "pages_domain_verification", "pipeline_background", "pipeline_background:archive_trace", "pipeline_cache", "pipeline_cache:expire_job_cache", "pipeline_cache:expire_pipeline_cache", "pipeline_creation", "pipeline_creation:create_pipeline", "pipeline_creation:run_pipeline_schedule", "pipeline_default", "pipeline_default:build_coverage", "pipeline_default:build_trace_sections", "pipeline_default:pipeline_metrics", "pipeline_default:pipeline_notification", "pipeline_hooks", "pipeline_hooks:build_hooks", "pipeline_hooks:pipeline_hooks", "pipeline_processing", "pipeline_processing:build_finished", "pipeline_processing:build_queue", "pipeline_processing:build_success", "pipeline_processing:pipeline_process", "pipeline_processing:pipeline_success", "pipeline_processing:pipeline_update", "pipeline_processing:stage_update", "pipeline_processing:update_head_pipeline_for_merge_request", "plugin", "post_receive", "process_commit", "project_cache", "project_destroy", "project_export", "project_migrate_hashed_storage", "project_service", "propagate_service_template", "reactive_caching", "rebase", "repository_check", "repository_check:repository_check_clear", "repository_check:repository_check_single_repository", "repository_fork", "repository_import", "storage_migrator", "system_hook_push", "update_merge_requests", "update_user_activity", "upload_checksum", "web_hook"]
+2018-05-25_22:45:13.21137 2018-05-25T22:45:13.210Z 1914 TID-os66l8jik PagesDomainVerificationCronWorker JID-42664b2b6edaae4a22b22328 INFO: start
+2018-05-25_22:45:13.40556 2018-05-25T22:45:13.404Z 1914 TID-os66l8jik PagesDomainVerificationCronWorker JID-42664b2b6edaae4a22b22328 INFO: done: 0.191 sec
+2018-05-25_22:50:07.23849 2018-05-25T22:50:07.238Z 1914 TID-os66l8lds ExpireBuildArtifactsWorker JID-ec83fe107c4903186da36e34 INFO: start
+2018-05-25_22:50:07.46466 2018-05-25T22:50:07.464Z 1914 TID-os66l8lds ExpireBuildArtifactsWorker JID-ec83fe107c4903186da36e34 INFO: done: 0.226 sec
+2018-05-25_23:00:05.45415 2018-05-25T23:00:05.452Z 1914 TID-os66l8joo StuckCiJobsWorker JID-2c6e299897e29870f3c917ce INFO: start
+2018-05-25_23:00:05.56689 2018-05-25T23:00:05.564Z 1914 TID-os66l8lds PagesDomainVerificationCronWorker JID-fc245c32a66fc5461ab9e9aa INFO: start
+2018-05-25_23:00:05.60951 2018-05-25T23:00:05.608Z 1914 TID-os6cc7qf0 RepositoryArchiveCacheWorker JID-fee0863a53c90b1294e76e9b INFO: start
+2018-05-25_23:00:05.65727 2018-05-25T23:00:05.656Z 1914 TID-os6cc7lsc ImportExportProjectCleanupWorker JID-86677e7af6a0d9c4d2864aeb INFO: start
+2018-05-25_23:00:05.68613 2018-05-25T23:00:05.685Z 1914 TID-os66l8joo StuckCiJobsWorker JID-2c6e299897e29870f3c917ce INFO: done: 0.232 sec
+2018-05-25_23:00:05.74219 2018-05-25T23:00:05.739Z 1914 TID-os6cc7lsc ImportExportProjectCleanupWorker JID-86677e7af6a0d9c4d2864aeb INFO: done: 0.083 sec
+2018-05-25_23:00:05.74414 2018-05-25T23:00:05.743Z 1914 TID-os6cc7qf0 RepositoryArchiveCacheWorker JID-fee0863a53c90b1294e76e9b INFO: done: 0.135 sec
+2018-05-25_23:00:05.76404 2018-05-25T23:00:05.763Z 1914 TID-os66l8lds PagesDomainVerificationCronWorker JID-fc245c32a66fc5461ab9e9aa INFO: done: 0.199 sec

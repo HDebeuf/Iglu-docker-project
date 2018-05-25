@@ -1,0 +1,4 @@
+W, [2018-05-25T23:05:45.844384 #2136]  WARN -- : #<Unicorn::HttpServer:0x00007fe9343b5568>: worker (pid: 2136) exceeds memory limit (544912896.0 bytes > 491965317 bytes)
+W, [2018-05-25T23:05:45.845313 #2136]  WARN -- : Unicorn::WorkerKiller send SIGQUIT (pid: 2136) alive: 1162 sec (trial 1)
+I, [2018-05-25T23:05:46.755209 #692]  INFO -- : reaped #<Process::Status: pid 2136 exit 0> worker=0
+I, [2018-05-25T23:05:48.203572 #12778]  INFO -- : worker=0 ready

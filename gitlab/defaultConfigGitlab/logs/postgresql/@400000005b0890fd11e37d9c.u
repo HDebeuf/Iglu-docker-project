@@ -1,0 +1,878 @@
+2018-05-24_11:30:15.76365 LOG:  database system was interrupted; last known up at 2018-05-24 11:21:27 GMT
+2018-05-24_11:30:15.81977 LOG:  database system was not properly shut down; automatic recovery in progress
+2018-05-24_11:30:15.83014 LOG:  invalid record length at 0/1A43B48: wanted 24, got 0
+2018-05-24_11:30:15.83016 LOG:  redo is not required
+2018-05-24_11:30:15.87949 LOG:  MultiXact member wraparound protections are now enabled
+2018-05-24_11:30:15.88790 LOG:  database system is ready to accept connections
+2018-05-24_11:30:15.89092 LOG:  autovacuum launcher started
+2018-05-25_22:38:07.11840 LOG:  lock file "postmaster.pid" contains wrong PID: 415 instead of 738
+2018-05-25_22:38:07.11850 LOG:  performing immediate shutdown because data directory lock file is invalid
+2018-05-25_22:38:07.11851 LOG:  received immediate shutdown request
+2018-05-25_22:38:07.11851 WARNING:  terminating connection because of crash of another server process
+2018-05-25_22:38:07.11852 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-05-25_22:38:07.11852 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-05-25_22:38:07.11906 WARNING:  terminating connection because of crash of another server process
+2018-05-25_22:38:07.11907 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-05-25_22:38:07.11907 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-05-25_22:38:07.11963 WARNING:  terminating connection because of crash of another server process
+2018-05-25_22:38:07.11965 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-05-25_22:38:07.11965 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-05-25_22:38:07.12053 WARNING:  terminating connection because of crash of another server process
+2018-05-25_22:38:07.12059 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-05-25_22:38:07.12060 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-05-25_22:38:07.12334 WARNING:  terminating connection because of crash of another server process
+2018-05-25_22:38:07.12350 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-05-25_22:38:07.12351 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-05-25_22:38:07.12641 WARNING:  terminating connection because of crash of another server process
+2018-05-25_22:38:07.12645 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-05-25_22:38:07.12646 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-05-25_22:38:07.12646 WARNING:  terminating connection because of crash of another server process
+2018-05-25_22:38:07.12646 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-05-25_22:38:07.12647 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-05-25_22:38:07.13038 WARNING:  terminating connection because of crash of another server process
+2018-05-25_22:38:07.13040 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-05-25_22:38:07.13044 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-05-25_22:38:07.13848 WARNING:  terminating connection because of crash of another server process
+2018-05-25_22:38:07.13852 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-05-25_22:38:07.13853 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-05-25_22:38:07.13853 WARNING:  terminating connection because of crash of another server process
+2018-05-25_22:38:07.13854 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-05-25_22:38:07.13854 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-05-25_22:38:07.29551 LOG:  database system is shut down
+2018-05-25_22:38:08.38251 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:08.60791 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:08.60796 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:08.60797 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:08.60797 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:08.60797 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:08.60962 LOG:  startup process (PID 1866) was terminated by signal 6: Aborted
+2018-05-25_22:38:08.60963 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:08.61931 LOG:  database system is shut down
+2018-05-25_22:38:09.01801 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:09.06583 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:09.06588 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:09.06589 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:09.06589 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:09.06590 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:09.07097 LOG:  startup process (PID 1882) was terminated by signal 6: Aborted
+2018-05-25_22:38:09.07098 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:09.07498 LOG:  database system is shut down
+2018-05-25_22:38:10.46617 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:10.54997 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:10.55006 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:10.55010 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:10.55014 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:10.55017 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:10.55382 LOG:  startup process (PID 1889) was terminated by signal 6: Aborted
+2018-05-25_22:38:10.55390 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:10.56326 LOG:  database system is shut down
+2018-05-25_22:38:11.91981 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:11.97343 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:11.97354 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:11.97360 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:11.97363 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:11.97367 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:11.97951 LOG:  startup process (PID 1892) was terminated by signal 6: Aborted
+2018-05-25_22:38:11.97954 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:12.00018 LOG:  database system is shut down
+2018-05-25_22:38:13.29274 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:13.31827 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:13.31932 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:13.31938 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:13.31941 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:13.31944 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:13.32667 LOG:  startup process (PID 1905) was terminated by signal 6: Aborted
+2018-05-25_22:38:13.32671 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:13.32854 LOG:  database system is shut down
+2018-05-25_22:38:14.48916 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:14.51744 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:14.52049 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:14.52098 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:14.52113 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:14.52139 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:14.52496 LOG:  startup process (PID 1910) was terminated by signal 6: Aborted
+2018-05-25_22:38:14.52498 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:14.53767 LOG:  database system is shut down
+2018-05-25_22:38:15.73420 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:15.75871 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:15.75873 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:15.75903 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:15.75906 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:15.75906 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:15.76012 LOG:  startup process (PID 1915) was terminated by signal 6: Aborted
+2018-05-25_22:38:15.76013 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:15.76774 LOG:  database system is shut down
+2018-05-25_22:38:17.12880 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:17.16871 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:17.16873 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:17.16876 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:17.16876 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:17.16877 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:17.17789 LOG:  startup process (PID 1918) was terminated by signal 6: Aborted
+2018-05-25_22:38:17.17790 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:17.19001 LOG:  database system is shut down
+2018-05-25_22:38:18.51763 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:18.59663 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:18.59680 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:18.59689 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:18.59693 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:18.59703 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:18.59863 LOG:  startup process (PID 1928) was terminated by signal 6: Aborted
+2018-05-25_22:38:18.59871 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:18.60681 LOG:  database system is shut down
+2018-05-25_22:38:20.09897 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:20.13305 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:20.13310 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:20.13310 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:20.13311 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:20.13311 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:20.13424 LOG:  startup process (PID 1960) was terminated by signal 6: Aborted
+2018-05-25_22:38:20.13425 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:20.13706 LOG:  database system is shut down
+2018-05-25_22:38:21.67037 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:21.72687 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:21.72712 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:21.72737 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:21.72742 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:21.72749 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:21.72910 LOG:  startup process (PID 1991) was terminated by signal 6: Aborted
+2018-05-25_22:38:21.72912 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:21.73530 LOG:  database system is shut down
+2018-05-25_22:38:22.95951 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:23.02061 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:23.02071 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:23.02077 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:23.02081 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:23.02085 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:23.03000 LOG:  startup process (PID 2021) was terminated by signal 6: Aborted
+2018-05-25_22:38:23.03002 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:23.03003 LOG:  database system is shut down
+2018-05-25_22:38:24.31776 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:24.58413 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:24.58429 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:24.58435 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:24.58439 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:24.58446 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:24.58614 LOG:  startup process (PID 2046) was terminated by signal 6: Aborted
+2018-05-25_22:38:24.58615 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:24.59385 LOG:  database system is shut down
+2018-05-25_22:38:25.98638 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:26.08133 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:26.08143 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:26.08153 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:26.08157 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:26.08178 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:26.08889 LOG:  startup process (PID 2079) was terminated by signal 6: Aborted
+2018-05-25_22:38:26.08892 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:26.09151 LOG:  database system is shut down
+2018-05-25_22:38:27.36120 FATAL:  the database system is starting up
+2018-05-25_22:38:27.36798 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:27.37459 FATAL:  the database system is starting up
+2018-05-25_22:38:27.45080 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:27.45171 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:27.45183 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:27.45196 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:27.45209 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:27.46242 LOG:  startup process (PID 2114) was terminated by signal 6: Aborted
+2018-05-25_22:38:27.46246 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:27.46378 LOG:  database system is shut down
+2018-05-25_22:38:28.74574 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:28.77947 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:28.77952 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:28.77953 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:28.77953 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:28.77954 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:28.78052 LOG:  startup process (PID 2192) was terminated by signal 6: Aborted
+2018-05-25_22:38:28.78053 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:28.78710 LOG:  database system is shut down
+2018-05-25_22:38:29.98144 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:30.02322 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:30.02326 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:30.02327 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:30.02328 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:30.02328 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:30.03046 LOG:  startup process (PID 2255) was terminated by signal 6: Aborted
+2018-05-25_22:38:30.03049 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:30.03050 LOG:  database system is shut down
+2018-05-25_22:38:31.38760 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:31.47836 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:31.47868 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:31.47873 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:31.47881 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:31.47884 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:31.47982 LOG:  startup process (PID 2275) was terminated by signal 6: Aborted
+2018-05-25_22:38:31.47999 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:31.48790 LOG:  database system is shut down
+2018-05-25_22:38:32.94039 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:32.97569 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:32.97598 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:32.97615 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:32.97630 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:32.97642 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:32.97767 LOG:  startup process (PID 2282) was terminated by signal 6: Aborted
+2018-05-25_22:38:32.97769 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:32.98674 LOG:  database system is shut down
+2018-05-25_22:38:34.23144 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:34.27577 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:34.27584 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:34.27586 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:34.27586 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:34.27587 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:34.27837 LOG:  startup process (PID 2290) was terminated by signal 6: Aborted
+2018-05-25_22:38:34.27839 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:34.28813 LOG:  database system is shut down
+2018-05-25_22:38:35.57646 FATAL:  the database system is starting up
+2018-05-25_22:38:35.58357 FATAL:  the database system is starting up
+2018-05-25_22:38:35.59268 FATAL:  the database system is starting up
+2018-05-25_22:38:35.61163 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:35.65027 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:35.65062 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:35.65068 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:35.65071 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:35.65075 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:35.65318 LOG:  startup process (PID 2336) was terminated by signal 6: Aborted
+2018-05-25_22:38:35.65319 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:35.65583 LOG:  database system is shut down
+2018-05-25_22:38:37.00582 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:37.06720 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:37.06724 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:37.06725 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:37.06725 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:37.06726 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:37.07042 LOG:  startup process (PID 2350) was terminated by signal 6: Aborted
+2018-05-25_22:38:37.07045 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:37.07616 LOG:  database system is shut down
+2018-05-25_22:38:38.28981 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:38.33079 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:38.33087 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:38.33091 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:38.33106 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:38.33115 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:38.33388 LOG:  startup process (PID 2353) was terminated by signal 6: Aborted
+2018-05-25_22:38:38.33390 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:38.34000 LOG:  database system is shut down
+2018-05-25_22:38:39.52266 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:39.56848 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:39.56858 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:39.56864 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:39.56868 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:39.56870 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:39.57006 LOG:  startup process (PID 2375) was terminated by signal 6: Aborted
+2018-05-25_22:38:39.57008 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:39.57773 LOG:  database system is shut down
+2018-05-25_22:38:40.75485 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:40.78439 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:40.78444 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:40.78449 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:40.78450 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:40.78450 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:40.79049 LOG:  startup process (PID 2383) was terminated by signal 6: Aborted
+2018-05-25_22:38:40.79053 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:40.79415 LOG:  database system is shut down
+2018-05-25_22:38:42.14244 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:42.17061 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:42.17073 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:42.17082 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:42.17089 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:42.17094 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:42.17325 LOG:  startup process (PID 2386) was terminated by signal 6: Aborted
+2018-05-25_22:38:42.17328 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:42.18325 LOG:  database system is shut down
+2018-05-25_22:38:43.40253 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:43.48369 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:43.48380 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:43.48386 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:43.48390 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:43.48395 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:43.48743 LOG:  startup process (PID 2399) was terminated by signal 6: Aborted
+2018-05-25_22:38:43.48746 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:43.49363 LOG:  database system is shut down
+2018-05-25_22:38:44.75743 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:44.81982 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:44.82006 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:44.82013 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:44.82021 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:44.82028 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:44.82482 LOG:  startup process (PID 2403) was terminated by signal 6: Aborted
+2018-05-25_22:38:44.82485 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:44.83196 LOG:  database system is shut down
+2018-05-25_22:38:46.05083 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:46.08780 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:46.08791 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:46.08816 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:46.08821 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:46.08834 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:46.09078 LOG:  startup process (PID 2408) was terminated by signal 6: Aborted
+2018-05-25_22:38:46.09079 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:46.09606 LOG:  database system is shut down
+2018-05-25_22:38:47.28419 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:47.31248 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:47.31266 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:47.31533 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:47.31539 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:47.31543 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:47.31875 LOG:  startup process (PID 2411) was terminated by signal 6: Aborted
+2018-05-25_22:38:47.31877 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:47.32541 LOG:  database system is shut down
+2018-05-25_22:38:48.48183 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:48.69067 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:48.69078 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:48.69104 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:48.69108 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:48.69113 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:48.69840 LOG:  startup process (PID 2414) was terminated by signal 6: Aborted
+2018-05-25_22:38:48.69841 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:48.70087 LOG:  database system is shut down
+2018-05-25_22:38:49.95617 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:49.98676 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:49.98686 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:49.98709 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:49.98714 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:49.98719 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:49.99138 LOG:  startup process (PID 2420) was terminated by signal 6: Aborted
+2018-05-25_22:38:49.99141 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:49.99709 LOG:  database system is shut down
+2018-05-25_22:38:51.25052 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:51.27597 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:51.27629 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:51.27644 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:51.27657 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:51.27669 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:51.27903 LOG:  startup process (PID 2432) was terminated by signal 6: Aborted
+2018-05-25_22:38:51.27906 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:51.28625 LOG:  database system is shut down
+2018-05-25_22:38:52.50919 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:52.56052 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:52.56072 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:52.56091 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:52.56097 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:52.56114 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:52.56834 LOG:  startup process (PID 2435) was terminated by signal 6: Aborted
+2018-05-25_22:38:52.56839 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:52.57543 LOG:  database system is shut down
+2018-05-25_22:38:53.85474 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:53.91809 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:53.91821 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:53.91830 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:53.91839 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:53.91846 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:53.93125 LOG:  startup process (PID 2447) was terminated by signal 6: Aborted
+2018-05-25_22:38:53.93129 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:53.93289 LOG:  database system is shut down
+2018-05-25_22:38:55.20923 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:55.25622 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:55.25636 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:55.25642 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:55.25664 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:55.25668 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:55.26123 LOG:  startup process (PID 2450) was terminated by signal 6: Aborted
+2018-05-25_22:38:55.26125 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:55.26539 LOG:  database system is shut down
+2018-05-25_22:38:56.48359 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:56.51040 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:56.51052 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:56.51057 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:56.51062 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:56.51071 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:56.51581 LOG:  startup process (PID 2453) was terminated by signal 6: Aborted
+2018-05-25_22:38:56.51582 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:56.51990 LOG:  database system is shut down
+2018-05-25_22:38:57.89412 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:57.92942 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:57.92952 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:57.92957 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:57.92960 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:57.92963 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:57.93511 LOG:  startup process (PID 2457) was terminated by signal 6: Aborted
+2018-05-25_22:38:57.93515 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:57.94523 LOG:  database system is shut down
+2018-05-25_22:38:59.16543 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:38:59.19353 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:59.19520 LOG:  invalid primary checkpoint record
+2018-05-25_22:38:59.19861 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:38:59.20031 LOG:  invalid secondary checkpoint record
+2018-05-25_22:38:59.20048 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:38:59.21448 LOG:  startup process (PID 2460) was terminated by signal 6: Aborted
+2018-05-25_22:38:59.21452 LOG:  aborting startup due to startup process failure
+2018-05-25_22:38:59.21728 LOG:  database system is shut down
+2018-05-25_22:39:00.40137 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:00.43644 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:00.43657 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:00.43681 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:00.43685 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:00.43689 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:00.44186 LOG:  startup process (PID 2465) was terminated by signal 6: Aborted
+2018-05-25_22:39:00.44189 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:00.44590 LOG:  database system is shut down
+2018-05-25_22:39:01.66382 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:01.69896 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:01.69906 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:01.69912 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:01.69920 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:01.69924 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:01.70101 LOG:  startup process (PID 2468) was terminated by signal 6: Aborted
+2018-05-25_22:39:01.70103 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:01.70871 LOG:  database system is shut down
+2018-05-25_22:39:02.94121 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:02.98908 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:02.98971 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:02.98995 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:02.98999 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:02.99012 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:02.99455 LOG:  startup process (PID 2472) was terminated by signal 6: Aborted
+2018-05-25_22:39:02.99458 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:02.99705 LOG:  database system is shut down
+2018-05-25_22:39:04.26425 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:04.29278 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:04.29286 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:04.29291 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:04.29299 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:04.29305 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:04.29448 LOG:  startup process (PID 2477) was terminated by signal 6: Aborted
+2018-05-25_22:39:04.29451 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:04.30222 LOG:  database system is shut down
+2018-05-25_22:39:05.53280 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:05.56708 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:05.56719 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:05.56728 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:05.56737 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:05.56741 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:05.57268 LOG:  startup process (PID 2480) was terminated by signal 6: Aborted
+2018-05-25_22:39:05.57271 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:05.57643 LOG:  database system is shut down
+2018-05-25_22:39:06.82653 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:06.85457 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:06.85462 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:06.85462 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:06.85463 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:06.85463 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:06.85463 LOG:  startup process (PID 2485) was terminated by signal 6: Aborted
+2018-05-25_22:39:06.85464 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:06.85787 LOG:  database system is shut down
+2018-05-25_22:39:08.06152 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:08.10496 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:08.10522 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:08.10540 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:08.10561 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:08.10576 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:08.11132 LOG:  startup process (PID 2489) was terminated by signal 6: Aborted
+2018-05-25_22:39:08.11137 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:08.11836 LOG:  database system is shut down
+2018-05-25_22:39:09.34259 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:09.37813 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:09.37818 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:09.37819 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:09.37819 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:09.37820 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:09.37820 LOG:  startup process (PID 2500) was terminated by signal 6: Aborted
+2018-05-25_22:39:09.37821 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:09.38656 LOG:  database system is shut down
+2018-05-25_22:39:10.58447 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:10.63674 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:10.63753 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:10.63790 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:10.63806 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:10.63817 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:10.64284 LOG:  startup process (PID 2503) was terminated by signal 6: Aborted
+2018-05-25_22:39:10.64287 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:10.64805 LOG:  database system is shut down
+2018-05-25_22:39:11.99854 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:12.05412 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:12.05590 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:12.05609 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:12.05619 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:12.05632 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:12.05876 LOG:  startup process (PID 2507) was terminated by signal 6: Aborted
+2018-05-25_22:39:12.05878 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:12.06744 LOG:  database system is shut down
+2018-05-25_22:39:13.35839 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:13.40254 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:13.40258 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:13.40259 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:13.40260 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:13.40260 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:13.40696 LOG:  startup process (PID 2510) was terminated by signal 6: Aborted
+2018-05-25_22:39:13.40699 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:13.42366 LOG:  database system is shut down
+2018-05-25_22:39:14.73566 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:14.80070 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:14.80644 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:14.80669 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:14.80673 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:14.80687 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:14.81418 LOG:  startup process (PID 2513) was terminated by signal 6: Aborted
+2018-05-25_22:39:14.81423 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:14.82159 LOG:  database system is shut down
+2018-05-25_22:39:16.10185 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:16.15595 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:16.15603 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:16.15607 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:16.15611 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:16.15615 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:16.16036 LOG:  startup process (PID 2519) was terminated by signal 6: Aborted
+2018-05-25_22:39:16.16038 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:16.16455 LOG:  database system is shut down
+2018-05-25_22:39:17.39803 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:17.54819 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:17.55029 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:17.55074 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:17.55091 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:17.55112 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:17.55875 LOG:  startup process (PID 2522) was terminated by signal 6: Aborted
+2018-05-25_22:39:17.55878 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:17.58097 LOG:  database system is shut down
+2018-05-25_22:39:18.83267 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:18.88316 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:18.88326 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:18.88350 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:18.88355 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:18.88366 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:18.88704 LOG:  startup process (PID 2525) was terminated by signal 6: Aborted
+2018-05-25_22:39:18.88706 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:18.89244 LOG:  database system is shut down
+2018-05-25_22:39:20.10955 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:20.37341 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:20.37347 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:20.37348 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:20.37349 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:20.37351 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:20.37609 LOG:  startup process (PID 2531) was terminated by signal 6: Aborted
+2018-05-25_22:39:20.37610 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:20.38895 LOG:  database system is shut down
+2018-05-25_22:39:22.34901 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:22.44638 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:22.44644 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:22.44645 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:22.44646 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:22.44646 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:22.44795 LOG:  startup process (PID 2536) was terminated by signal 6: Aborted
+2018-05-25_22:39:22.44796 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:22.45570 LOG:  database system is shut down
+2018-05-25_22:39:22.67468 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:22.72510 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:22.72515 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:22.72516 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:22.72517 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:22.72517 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:22.72517 LOG:  startup process (PID 2538) was terminated by signal 6: Aborted
+2018-05-25_22:39:22.72518 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:22.73841 LOG:  database system is shut down
+2018-05-25_22:39:24.02577 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:24.08459 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:24.08463 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:24.08464 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:24.08464 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:24.08464 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:24.08602 LOG:  startup process (PID 2548) was terminated by signal 6: Aborted
+2018-05-25_22:39:24.08603 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:24.09334 LOG:  database system is shut down
+2018-05-25_22:39:25.28954 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:25.32636 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:25.32642 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:25.32642 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:25.32643 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:25.32643 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:25.32927 LOG:  startup process (PID 2552) was terminated by signal 6: Aborted
+2018-05-25_22:39:25.32930 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:25.33720 LOG:  database system is shut down
+2018-05-25_22:39:26.68345 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:26.72156 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:26.72179 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:26.72190 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:26.72202 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:26.72212 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:26.72658 LOG:  startup process (PID 2555) was terminated by signal 6: Aborted
+2018-05-25_22:39:26.72663 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:26.73335 LOG:  database system is shut down
+2018-05-25_22:39:27.95879 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:28.05640 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:28.05675 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:28.05690 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:28.05705 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:28.05716 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:28.06258 LOG:  startup process (PID 2558) was terminated by signal 6: Aborted
+2018-05-25_22:39:28.06261 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:28.06644 LOG:  database system is shut down
+2018-05-25_22:39:29.24662 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:29.27626 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:29.27664 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:29.27676 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:29.27683 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:29.27736 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:29.28666 LOG:  startup process (PID 2562) was terminated by signal 6: Aborted
+2018-05-25_22:39:29.28668 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:29.28669 LOG:  database system is shut down
+2018-05-25_22:39:30.63678 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:30.68689 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:30.68697 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:30.68703 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:30.68706 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:30.68709 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:30.69397 LOG:  startup process (PID 2567) was terminated by signal 6: Aborted
+2018-05-25_22:39:30.69399 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:30.69399 LOG:  database system is shut down
+2018-05-25_22:39:31.88827 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:31.91366 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:31.91378 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:31.91384 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:31.91388 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:31.91392 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:31.91606 LOG:  startup process (PID 2570) was terminated by signal 6: Aborted
+2018-05-25_22:39:31.91609 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:31.92438 LOG:  database system is shut down
+2018-05-25_22:39:33.18677 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:33.23016 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:33.23028 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:33.23044 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:33.23049 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:33.23059 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:33.23244 LOG:  startup process (PID 2573) was terminated by signal 6: Aborted
+2018-05-25_22:39:33.23246 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:33.24019 LOG:  database system is shut down
+2018-05-25_22:39:34.55441 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:34.70027 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:34.70047 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:34.70055 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:34.70063 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:34.70071 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:34.70301 LOG:  startup process (PID 2579) was terminated by signal 6: Aborted
+2018-05-25_22:39:34.70323 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:34.71195 LOG:  database system is shut down
+2018-05-25_22:39:35.91239 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:35.94776 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:35.94787 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:35.94792 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:35.94797 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:35.94801 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:35.94943 LOG:  startup process (PID 2582) was terminated by signal 6: Aborted
+2018-05-25_22:39:35.94946 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:35.95693 LOG:  database system is shut down
+2018-05-25_22:39:37.15340 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:37.18738 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:37.18752 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:37.18757 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:37.18770 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:37.18777 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:37.19512 LOG:  startup process (PID 2587) was terminated by signal 6: Aborted
+2018-05-25_22:39:37.19515 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:37.19683 LOG:  database system is shut down
+2018-05-25_22:39:38.43392 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:38.48476 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:38.48485 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:38.48489 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:38.48491 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:38.48494 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:38.48647 LOG:  startup process (PID 2600) was terminated by signal 6: Aborted
+2018-05-25_22:39:38.48690 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:38.49644 LOG:  database system is shut down
+2018-05-25_22:39:39.83381 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:39.86000 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:39.86011 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:39.86020 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:39.86026 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:39.86034 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:39.86311 LOG:  startup process (PID 2603) was terminated by signal 6: Aborted
+2018-05-25_22:39:39.86313 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:39.86887 LOG:  database system is shut down
+2018-05-25_22:39:41.06281 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:41.08744 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:41.08755 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:41.08826 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:41.09191 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:41.09197 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:41.09471 LOG:  startup process (PID 2606) was terminated by signal 6: Aborted
+2018-05-25_22:39:41.09473 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:41.10095 LOG:  database system is shut down
+2018-05-25_22:39:42.42052 FATAL:  the database system is starting up
+2018-05-25_22:39:42.42208 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:42.46362 FATAL:  the database system is starting up
+2018-05-25_22:39:42.49981 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:42.49992 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:42.49997 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:42.50006 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:42.50010 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:42.50653 LOG:  startup process (PID 2610) was terminated by signal 6: Aborted
+2018-05-25_22:39:42.50658 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:42.52642 LOG:  database system is shut down
+2018-05-25_22:39:43.75253 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:43.78144 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:43.78152 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:43.78156 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:43.78183 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:43.78198 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:43.78920 LOG:  startup process (PID 2615) was terminated by signal 6: Aborted
+2018-05-25_22:39:43.78922 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:43.79067 LOG:  database system is shut down
+2018-05-25_22:39:44.96916 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:45.01238 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:45.01248 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:45.01252 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:45.01255 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:45.01258 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:45.01521 LOG:  startup process (PID 2618) was terminated by signal 6: Aborted
+2018-05-25_22:39:45.01523 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:45.02095 LOG:  database system is shut down
+2018-05-25_22:39:46.26176 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:46.56591 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:46.56628 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:46.56649 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:46.56667 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:46.56678 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:46.56943 LOG:  startup process (PID 2623) was terminated by signal 6: Aborted
+2018-05-25_22:39:46.56951 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:46.57470 LOG:  database system is shut down
+2018-05-25_22:39:47.87599 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:47.92386 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:47.92397 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:47.92402 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:47.92406 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:47.92442 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:47.93055 LOG:  startup process (PID 2627) was terminated by signal 6: Aborted
+2018-05-25_22:39:47.93058 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:47.93829 LOG:  database system is shut down
+2018-05-25_22:39:49.15384 FATAL:  the database system is starting up
+2018-05-25_22:39:49.17730 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:49.25481 FATAL:  the database system is starting up
+2018-05-25_22:39:49.49497 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:49.49502 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:49.49503 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:49.49504 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:49.49504 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:49.49701 LOG:  startup process (PID 2630) was terminated by signal 6: Aborted
+2018-05-25_22:39:49.49703 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:49.50893 LOG:  database system is shut down
+2018-05-25_22:39:50.74638 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:50.77654 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:50.77660 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:50.77661 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:50.77662 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:50.77662 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:50.77663 LOG:  startup process (PID 2638) was terminated by signal 6: Aborted
+2018-05-25_22:39:50.77663 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:50.78561 LOG:  database system is shut down
+2018-05-25_22:39:52.12480 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:52.15355 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:52.15360 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:52.15361 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:52.15362 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:52.15362 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:52.15478 LOG:  startup process (PID 2650) was terminated by signal 6: Aborted
+2018-05-25_22:39:52.15479 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:52.16001 LOG:  database system is shut down
+2018-05-25_22:39:53.37246 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:53.40924 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:53.41018 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:53.41046 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:53.41057 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:53.41068 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:53.41515 LOG:  startup process (PID 2654) was terminated by signal 6: Aborted
+2018-05-25_22:39:53.41518 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:53.42000 LOG:  database system is shut down
+2018-05-25_22:39:55.40764 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:55.46651 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:55.46660 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:55.46664 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:55.46667 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:55.46669 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:55.46789 LOG:  startup process (PID 2664) was terminated by signal 6: Aborted
+2018-05-25_22:39:55.46791 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:55.47517 LOG:  database system is shut down
+2018-05-25_22:39:56.73526 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:56.80085 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:56.80097 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:56.80103 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:56.80106 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:56.80111 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:56.80710 LOG:  startup process (PID 2668) was terminated by signal 6: Aborted
+2018-05-25_22:39:56.80712 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:56.80994 LOG:  database system is shut down
+2018-05-25_22:39:58.08909 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:58.12147 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:58.12157 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:58.12163 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:58.12166 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:58.12171 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:58.12677 LOG:  startup process (PID 2671) was terminated by signal 6: Aborted
+2018-05-25_22:39:58.12679 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:58.13011 LOG:  database system is shut down
+2018-05-25_22:39:59.37938 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:39:59.43263 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:59.43274 LOG:  invalid primary checkpoint record
+2018-05-25_22:39:59.43315 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:39:59.43320 LOG:  invalid secondary checkpoint record
+2018-05-25_22:39:59.43324 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:39:59.43656 LOG:  startup process (PID 2674) was terminated by signal 6: Aborted
+2018-05-25_22:39:59.43662 LOG:  aborting startup due to startup process failure
+2018-05-25_22:39:59.44236 LOG:  database system is shut down
+2018-05-25_22:40:00.75392 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:40:00.80437 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:40:00.80470 LOG:  invalid primary checkpoint record
+2018-05-25_22:40:00.80483 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:40:00.80496 LOG:  invalid secondary checkpoint record
+2018-05-25_22:40:00.80507 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:40:00.80637 LOG:  startup process (PID 2682) was terminated by signal 6: Aborted
+2018-05-25_22:40:00.80639 LOG:  aborting startup due to startup process failure
+2018-05-25_22:40:00.81666 LOG:  database system is shut down
+2018-05-25_22:40:02.09944 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:40:02.14987 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:40:02.14998 LOG:  invalid primary checkpoint record
+2018-05-25_22:40:02.15006 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:40:02.15014 LOG:  invalid secondary checkpoint record
+2018-05-25_22:40:02.15017 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:40:02.15510 LOG:  startup process (PID 2687) was terminated by signal 6: Aborted
+2018-05-25_22:40:02.15513 LOG:  aborting startup due to startup process failure
+2018-05-25_22:40:02.15963 LOG:  database system is shut down
+2018-05-25_22:40:03.45599 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:40:03.58410 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:40:03.58444 LOG:  invalid primary checkpoint record
+2018-05-25_22:40:03.58455 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:40:03.58587 LOG:  invalid secondary checkpoint record
+2018-05-25_22:40:03.58594 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:40:03.59414 LOG:  startup process (PID 2690) was terminated by signal 6: Aborted
+2018-05-25_22:40:03.59419 LOG:  aborting startup due to startup process failure
+2018-05-25_22:40:03.60260 LOG:  database system is shut down
+2018-05-25_22:40:04.90302 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:40:05.08969 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:40:05.08977 LOG:  invalid primary checkpoint record
+2018-05-25_22:40:05.08981 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:40:05.08998 LOG:  invalid secondary checkpoint record
+2018-05-25_22:40:05.09006 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:40:05.09678 LOG:  startup process (PID 2708) was terminated by signal 6: Aborted
+2018-05-25_22:40:05.09681 LOG:  aborting startup due to startup process failure
+2018-05-25_22:40:05.09961 LOG:  database system is shut down
+2018-05-25_22:40:06.38585 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:40:06.43888 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:40:06.43896 LOG:  invalid primary checkpoint record
+2018-05-25_22:40:06.43900 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:40:06.43912 LOG:  invalid secondary checkpoint record
+2018-05-25_22:40:06.43918 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:40:06.44313 LOG:  startup process (PID 2712) was terminated by signal 6: Aborted
+2018-05-25_22:40:06.44316 LOG:  aborting startup due to startup process failure
+2018-05-25_22:40:06.44835 LOG:  database system is shut down
+2018-05-25_22:40:07.75792 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:40:07.85574 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:40:07.85582 LOG:  invalid primary checkpoint record
+2018-05-25_22:40:07.85587 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:40:07.85590 LOG:  invalid secondary checkpoint record
+2018-05-25_22:40:07.85593 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:40:07.85864 LOG:  startup process (PID 2719) was terminated by signal 6: Aborted
+2018-05-25_22:40:07.85867 LOG:  aborting startup due to startup process failure
+2018-05-25_22:40:07.86550 LOG:  database system is shut down
+2018-05-25_22:40:09.09784 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:40:09.13369 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:40:09.13378 LOG:  invalid primary checkpoint record
+2018-05-25_22:40:09.13406 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:40:09.13409 LOG:  invalid secondary checkpoint record
+2018-05-25_22:40:09.13422 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:40:09.13853 LOG:  startup process (PID 2730) was terminated by signal 6: Aborted
+2018-05-25_22:40:09.13857 LOG:  aborting startup due to startup process failure
+2018-05-25_22:40:09.14169 LOG:  database system is shut down
+2018-05-25_22:40:10.41263 LOG:  database system was interrupted; last known up at 2018-05-25 22:37:53 GMT
+2018-05-25_22:40:10.46407 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:40:10.46497 LOG:  invalid primary checkpoint record
+2018-05-25_22:40:10.46502 LOG:  WAL file is from different database system: WAL file database system identifier is 6558528565216592598, pg_control database system identifier is 6559650133048853211
+2018-05-25_22:40:10.46505 LOG:  invalid secondary checkpoint record
+2018-05-25_22:40:10.46509 PANIC:  could not locate a valid checkpoint record
+2018-05-25_22:40:10.46772 LOG:  startup process (PID 2736) was terminated by signal 6: Aborted
+2018-05-25_22:40:10.46775 LOG:  aborting startup due to startup process failure
+2018-05-25_22:40:10.47470 LOG:  database system is shut down

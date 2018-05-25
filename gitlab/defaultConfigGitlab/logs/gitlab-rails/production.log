@@ -1,0 +1,46 @@
+Started GET "/help" for 127.0.0.1 at 2018-05-25 22:51:29 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 289ms (Views: 272.7ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2018-05-25 22:52:30 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 1179ms (Views: 1151.0ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2018-05-25 22:53:32 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 533ms (Views: 517.3ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2018-05-25 22:54:33 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 360ms (Views: 339.7ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2018-05-25 22:55:34 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 944ms (Views: 927.3ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2018-05-25 22:56:35 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 283ms (Views: 267.4ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2018-05-25 22:57:36 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 622ms (Views: 604.7ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2018-05-25 22:58:37 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 340ms (Views: 321.3ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2018-05-25 22:59:38 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 474ms (Views: 449.3ms | ActiveRecord: 0.0ms)
+StuckCiJobsWorker: Cleaning stuck builds
+Started GET "/help" for 127.0.0.1 at 2018-05-25 23:00:39 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 403ms (Views: 381.0ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2018-05-25 23:01:40 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 376ms (Views: 360.1ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2018-05-25 23:02:40 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 1391ms (Views: 1375.2ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2018-05-25 23:03:42 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 327ms (Views: 291.9ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2018-05-25 23:04:43 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 1297ms (Views: 1238.5ms | ActiveRecord: 0.0ms)
+Started GET "/help" for 127.0.0.1 at 2018-05-25 23:05:45 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 252ms (Views: 237.2ms | ActiveRecord: 0.0ms)

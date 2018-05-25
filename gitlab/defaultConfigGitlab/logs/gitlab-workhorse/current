@@ -1,0 +1,139 @@
+2018-05-24_11:30:29.77111 time="2018-05-24T11:30:29Z" level=info msg=Starting version="gitlab-workhorse v4.1.0-20180502.220512"
+2018-05-24_11:30:29.77266 time="2018-05-24T11:30:29Z" level=info msg="keywatcher: starting process loop"
+2018-05-24_11:30:29.77268 time="2018-05-24T11:30:29Z" level=info msg="redis: dialing" address=/var/opt/gitlab/redis/redis.socket network=unix
+2018-05-24_11:31:32.02263 time="2018-05-24T11:31:32Z" level=info msg=Starting version="gitlab-workhorse v4.1.0-20180502.220512"
+2018-05-24_11:31:32.02416 time="2018-05-24T11:31:32Z" level=info msg="keywatcher: starting process loop"
+2018-05-24_11:31:32.02418 time="2018-05-24T11:31:32Z" level=info msg="redis: dialing" address=/var/opt/gitlab/redis/redis.socket network=unix
+2018-05-24_11:31:37.13402 localhost @ - - [2018/05/24:11:31:37 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 1.406
+2018-05-24_11:32:38.21757 localhost @ - - [2018/05/24:11:32:38 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.777
+2018-05-24_11:33:39.29180 localhost @ - - [2018/05/24:11:33:39 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.813
+2018-05-24_11:34:39.88836 localhost @ - - [2018/05/24:11:34:39 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.350
+2018-05-24_11:35:40.44279 localhost @ - - [2018/05/24:11:35:40 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.301
+2018-05-24_11:36:41.05352 localhost @ - - [2018/05/24:11:36:41 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.341
+2018-05-24_11:37:42.40169 localhost @ - - [2018/05/24:11:37:42 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.984
+2018-05-24_11:38:44.34212 localhost @ - - [2018/05/24:11:38:44 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 1.637
+2018-05-24_11:39:12.76552 10.113.101.229:780 @ - - [2018/05/24:11:39:12 +0000] "GET / HTTP/1.1" 302 105 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 0.085
+2018-05-24_11:39:13.28875 10.113.101.229:780 @ - - [2018/05/24:11:39:13 +0000] "GET /users/sign_in HTTP/1.1" 200 10614 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 0.502
+2018-05-24_11:39:13.35316 time="2018-05-24T11:39:13Z" level=info msg="Send static file" encoding=gzip file=/opt/gitlab/embedded/service/gitlab-rails/public/assets/webpack/webpack_runtime.afbac23c2c460afb7e3e.bundle.js method=GET uri=/assets/webpack/webpack_runtime.afbac23c2c460afb7e3e.bundle.js
+2018-05-24_11:39:13.43928 10.113.101.229:780 @ - - [2018/05/24:11:39:13 +0000] "GET /assets/webpack/webpack_runtime.afbac23c2c460afb7e3e.bundle.js HTTP/1.1" 200 1163 "http://10.113.101.229:780/users/sign_in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 0.087
+2018-05-24_11:39:13.46383 time="2018-05-24T11:39:13Z" level=info msg="Send static file" encoding=gzip file=/opt/gitlab/embedded/service/gitlab-rails/public/assets/webpack/common.42cdc2fc181a202dfdd8.bundle.js method=GET uri=/assets/webpack/common.42cdc2fc181a202dfdd8.bundle.js
+2018-05-24_11:39:13.46391 10.113.101.229:780 @ - - [2018/05/24:11:39:13 +0000] "GET /assets/webpack/common.42cdc2fc181a202dfdd8.bundle.js HTTP/1.1" 200 129309 "http://10.113.101.229:780/users/sign_in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 0.001
+2018-05-24_11:39:13.47100 time="2018-05-24T11:39:13Z" level=info msg="Send static file" encoding=gzip file=/opt/gitlab/embedded/service/gitlab-rails/public/assets/webpack/main.e8c7fa2317821f699820.bundle.js method=GET uri=/assets/webpack/main.e8c7fa2317821f699820.bundle.js
+2018-05-24_11:39:13.47222 10.113.101.229:780 @ - - [2018/05/24:11:39:13 +0000] "GET /assets/webpack/main.e8c7fa2317821f699820.bundle.js HTTP/1.1" 200 74732 "http://10.113.101.229:780/users/sign_in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 0.001
+2018-05-24_11:39:13.48951 time="2018-05-24T11:39:13Z" level=info msg="Send static file" encoding=gzip file=/opt/gitlab/embedded/service/gitlab-rails/public/assets/webpack/pages.sessions.3981efaa48f59ba693fa.bundle.js method=GET uri=/assets/webpack/pages.sessions.3981efaa48f59ba693fa.bundle.js
+2018-05-24_11:39:13.48956 10.113.101.229:780 @ - - [2018/05/24:11:39:13 +0000] "GET /assets/webpack/pages.sessions.3981efaa48f59ba693fa.bundle.js HTTP/1.1" 200 3764 "http://10.113.101.229:780/users/sign_in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 0.000
+2018-05-24_11:39:13.49724 time="2018-05-24T11:39:13Z" level=info msg="Send static file" encoding=gzip file=/opt/gitlab/embedded/service/gitlab-rails/public/assets/webpack/pages.sessions.new.b39e3617a8b76995572f.bundle.js method=GET uri=/assets/webpack/pages.sessions.new.b39e3617a8b76995572f.bundle.js
+2018-05-24_11:39:13.49785 10.113.101.229:780 @ - - [2018/05/24:11:39:13 +0000] "GET /assets/webpack/pages.sessions.new.b39e3617a8b76995572f.bundle.js HTTP/1.1" 200 1775 "http://10.113.101.229:780/users/sign_in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 0.001
+2018-05-24_11:39:13.82927 time="2018-05-24T11:39:13Z" level=info msg="Send static file" encoding=gzip file=/opt/gitlab/embedded/service/gitlab-rails/public/assets/favicon-075eba76312e8421991a0c1f89a89ee81678bcde72319dd3e8047e2a47cd3a42.ico method=GET uri=/assets/favicon-075eba76312e8421991a0c1f89a89ee81678bcde72319dd3e8047e2a47cd3a42.ico
+2018-05-24_11:39:13.82930 10.113.101.229:780 @ - - [2018/05/24:11:39:13 +0000] "GET /assets/favicon-075eba76312e8421991a0c1f89a89ee81678bcde72319dd3e8047e2a47cd3a42.ico HTTP/1.1" 200 1384 "http://10.113.101.229:780/users/sign_in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 0.000
+2018-05-24_11:39:21.37213 10.113.101.229:780 @ - - [2018/05/24:11:39:21 +0000] "POST /users/sign_in HTTP/1.1" 302 92 "http://10.113.101.229:780/users/sign_in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 2.041
+2018-05-24_11:39:24.71040 10.113.101.229:780 @ - - [2018/05/24:11:39:24 +0000] "GET / HTTP/1.1" 200 19995 "http://10.113.101.229:780/users/sign_in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 3.313
+2018-05-24_11:39:24.84241 time="2018-05-24T11:39:24Z" level=info msg="Send static file" encoding=gzip file=/opt/gitlab/embedded/service/gitlab-rails/public/assets/icons-fe86f87a3d244c952cc0ec8d7f88c5effefcbe454d751d8449d4a1a32aaaf9a0.svg method=GET uri=/assets/icons-fe86f87a3d244c952cc0ec8d7f88c5effefcbe454d751d8449d4a1a32aaaf9a0.svg
+2018-05-24_11:39:24.84246 10.113.101.229:780 @ - - [2018/05/24:11:39:24 +0000] "GET /assets/icons-fe86f87a3d244c952cc0ec8d7f88c5effefcbe454d751d8449d4a1a32aaaf9a0.svg HTTP/1.1" 200 24493 "http://10.113.101.229:780/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 0.001
+2018-05-24_11:39:24.91369 time="2018-05-24T11:39:24Z" level=info msg="Send static file" encoding= file=/opt/gitlab/embedded/service/gitlab-rails/public/assets/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2 method=GET uri=/assets/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2
+2018-05-24_11:39:24.91510 10.113.101.229:780 @ - - [2018/05/24:11:39:24 +0000] "GET /assets/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2 HTTP/1.1" 200 77160 "http://10.113.101.229:780/assets/application-c8a4c6d1ee3edef81502a8a16847ee932a94df7a69ec1f8dd622c00b0d20b9ff.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 0.002
+2018-05-24_11:39:31.78913 10.113.101.229:780 @ - - [2018/05/24:11:39:31 +0000] "GET /root/Project-Iglo HTTP/1.1" 200 85044 "http://10.113.101.229:780/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 2.015
+2018-05-24_11:39:31.83573 time="2018-05-24T11:39:31Z" level=info msg="Send static file" encoding=gzip file=/opt/gitlab/embedded/service/gitlab-rails/public/assets/webpack/pages.projects.7c6f4cc65f266fb934a2.bundle.js method=GET uri=/assets/webpack/pages.projects.7c6f4cc65f266fb934a2.bundle.js
+2018-05-24_11:39:31.83599 10.113.101.229:780 @ - - [2018/05/24:11:39:31 +0000] "GET /assets/webpack/pages.projects.7c6f4cc65f266fb934a2.bundle.js HTTP/1.1" 200 3000 "http://10.113.101.229:780/root/Project-Iglo" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 0.000
+2018-05-24_11:39:31.86214 time="2018-05-24T11:39:31Z" level=info msg="Send static file" encoding=gzip file=/opt/gitlab/embedded/service/gitlab-rails/public/assets/webpack/pages.projects.show.061cc2e1796e94d192b2.bundle.js method=GET uri=/assets/webpack/pages.projects.show.061cc2e1796e94d192b2.bundle.js
+2018-05-24_11:39:31.86247 10.113.101.229:780 @ - - [2018/05/24:11:39:31 +0000] "GET /assets/webpack/pages.projects.show.061cc2e1796e94d192b2.bundle.js HTTP/1.1" 200 17699 "http://10.113.101.229:780/root/Project-Iglo" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 0.000
+2018-05-24_11:39:32.81268 10.113.101.229:780 @ - - [2018/05/24:11:39:32 +0000] "GET /root/Project-Iglo/blob/master/README.md?format=json&viewer=rich HTTP/1.1" 200 811 "http://10.113.101.229:780/root/Project-Iglo" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 0.739
+2018-05-24_11:39:33.07164 10.113.101.229:780 @ - - [2018/05/24:11:39:33 +0000] "GET /root/Project-Iglo/refs/master/logs_tree/?format=js HTTP/1.1" 200 651 "http://10.113.101.229:780/root/Project-Iglo" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 0.991
+2018-05-24_11:39:45.55758 10.113.101.229:780 @ - - [2018/05/24:11:39:45 +0000] "GET /dashboard/groups HTTP/1.1" 200 26385 "http://10.113.101.229:780/root/Project-Iglo" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 1.006
+2018-05-24_11:39:45.62029 time="2018-05-24T11:39:45Z" level=info msg="Send static file" encoding=gzip file=/opt/gitlab/embedded/service/gitlab-rails/public/assets/webpack/pages.dashboard.groups.index.f29d8be371d715c87d3b.bundle.js method=GET uri=/assets/webpack/pages.dashboard.groups.index.f29d8be371d715c87d3b.bundle.js
+2018-05-24_11:39:45.62081 10.113.101.229:780 @ - - [2018/05/24:11:39:45 +0000] "GET /assets/webpack/pages.dashboard.groups.index.f29d8be371d715c87d3b.bundle.js HTTP/1.1" 200 8312 "http://10.113.101.229:780/dashboard/groups" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 0.001
+2018-05-24_11:39:46.20930 localhost @ - - [2018/05/24:11:39:46 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 1.567
+2018-05-24_11:39:46.95960 10.113.101.229:780 @ - - [2018/05/24:11:39:46 +0000] "GET /dashboard/activity HTTP/1.1" 200 18146 "http://10.113.101.229:780/dashboard/groups" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 0.319
+2018-05-24_11:39:46.99831 time="2018-05-24T11:39:46Z" level=info msg="Send static file" encoding=gzip file=/opt/gitlab/embedded/service/gitlab-rails/public/assets/webpack/pages.dashboard.activity.0e10f706455b58ed4aa1.bundle.js method=GET uri=/assets/webpack/pages.dashboard.activity.0e10f706455b58ed4aa1.bundle.js
+2018-05-24_11:39:46.99838 10.113.101.229:780 @ - - [2018/05/24:11:39:46 +0000] "GET /assets/webpack/pages.dashboard.activity.0e10f706455b58ed4aa1.bundle.js HTTP/1.1" 200 1377 "http://10.113.101.229:780/dashboard/activity" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 0.000
+2018-05-24_11:39:47.62113 10.113.101.229:780 @ - - [2018/05/24:11:39:47 +0000] "GET /dashboard/activity?limit=20&offset=0 HTTP/1.1" 200 9011 "http://10.113.101.229:780/dashboard/activity" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 0.443
+2018-05-24_11:39:47.83369 10.113.101.229:780 @ - - [2018/05/24:11:39:47 +0000] "GET /dashboard/activity?limit=20&offset=6 HTTP/1.1" 200 23 "http://10.113.101.229:780/dashboard/activity" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 0.157
+2018-05-24_11:39:49.13573 10.113.101.229:780 @ - - [2018/05/24:11:39:49 +0000] "GET /admin HTTP/1.1" 200 29751 "http://10.113.101.229:780/dashboard/activity" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 0.410
+2018-05-24_11:39:49.18929 time="2018-05-24T11:39:49Z" level=info msg="Send static file" encoding=gzip file=/opt/gitlab/embedded/service/gitlab-rails/public/assets/webpack/pages.admin.9d2ce7b0cd808c1dcdaa.bundle.js method=GET uri=/assets/webpack/pages.admin.9d2ce7b0cd808c1dcdaa.bundle.js
+2018-05-24_11:39:49.18968 10.113.101.229:780 @ - - [2018/05/24:11:39:49 +0000] "GET /assets/webpack/pages.admin.9d2ce7b0cd808c1dcdaa.bundle.js HTTP/1.1" 200 714 "http://10.113.101.229:780/admin" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 0.001
+2018-05-24_11:39:50.61303 10.113.101.229:780 @ - - [2018/05/24:11:39:50 +0000] "GET /admin/users HTTP/1.1" 200 32705 "http://10.113.101.229:780/admin" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 0.300
+2018-05-24_11:39:50.65019 time="2018-05-24T11:39:50Z" level=info msg="Send static file" encoding=gzip file=/opt/gitlab/embedded/service/gitlab-rails/public/assets/webpack/pages.admin.users.e1d26a3d94ab541bbec5.bundle.js method=GET uri=/assets/webpack/pages.admin.users.e1d26a3d94ab541bbec5.bundle.js
+2018-05-24_11:39:50.65043 10.113.101.229:780 @ - - [2018/05/24:11:39:50 +0000] "GET /assets/webpack/pages.admin.users.e1d26a3d94ab541bbec5.bundle.js HTTP/1.1" 200 2442 "http://10.113.101.229:780/admin/users" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 0.000
+2018-05-24_11:39:54.90758 10.113.101.229:780 @ - - [2018/05/24:11:39:54 +0000] "GET /users/sign_out HTTP/1.1" 302 105 "http://10.113.101.229:780/admin/users" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 0.084
+2018-05-24_11:39:55.14694 10.113.101.229:780 @ - - [2018/05/24:11:39:55 +0000] "GET /users/sign_in HTTP/1.1" 200 10614 "http://10.113.101.229:780/admin/users" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 0.207
+2018-05-24_11:40:00.04199 10.113.101.229:780 @ - - [2018/05/24:11:40:00 +0000] "POST /users/sign_in HTTP/1.1" 302 112 "http://10.113.101.229:780/users/sign_in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 0.382
+2018-05-24_11:40:00.55252 10.113.101.229:780 @ - - [2018/05/24:11:40:00 +0000] "GET /profile/password/new HTTP/1.1" 200 16951 "http://10.113.101.229:780/users/sign_in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 0.483
+2018-05-24_11:40:00.59010 time="2018-05-24T11:40:00Z" level=info msg="Send static file" encoding=gzip file=/opt/gitlab/embedded/service/gitlab-rails/public/assets/webpack/pages.profiles.71c590c7218f39fd7df1.bundle.js method=GET uri=/assets/webpack/pages.profiles.71c590c7218f39fd7df1.bundle.js
+2018-05-24_11:40:00.59017 10.113.101.229:780 @ - - [2018/05/24:11:40:00 +0000] "GET /assets/webpack/pages.profiles.71c590c7218f39fd7df1.bundle.js HTTP/1.1" 200 11172 "http://10.113.101.229:780/profile/password/new" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 0.001
+2018-05-24_11:40:46.92565 localhost @ - - [2018/05/24:11:40:46 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.465
+2018-05-24_11:41:47.53690 localhost @ - - [2018/05/24:11:41:47 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.264
+2018-05-24_11:42:48.14340 localhost @ - - [2018/05/24:11:42:48 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.318
+2018-05-24_11:43:48.98844 localhost @ - - [2018/05/24:11:43:48 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.581
+2018-05-24_11:44:50.18538 localhost @ - - [2018/05/24:11:44:50 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.932
+2018-05-24_11:45:50.87140 localhost @ - - [2018/05/24:11:45:50 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.437
+2018-05-24_11:46:51.52594 localhost @ - - [2018/05/24:11:46:51 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.356
+2018-05-24_11:47:52.36305 localhost @ - - [2018/05/24:11:47:52 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.571
+2018-05-24_11:48:54.05383 localhost @ - - [2018/05/24:11:48:54 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 1.432
+2018-05-24_11:49:54.70814 localhost @ - - [2018/05/24:11:49:54 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.386
+2018-05-24_11:50:55.96321 localhost @ - - [2018/05/24:11:50:55 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.970
+2018-05-24_11:51:56.63301 localhost @ - - [2018/05/24:11:51:56 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.319
+2018-05-24_11:52:57.27860 localhost @ - - [2018/05/24:11:52:57 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.330
+2018-05-24_11:53:57.93119 localhost @ - - [2018/05/24:11:53:57 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.378
+2018-05-24_11:54:58.65705 localhost @ - - [2018/05/24:11:54:58 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.443
+2018-05-24_11:55:59.42009 localhost @ - - [2018/05/24:11:55:59 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.468
+2018-05-24_11:57:00.31066 localhost @ - - [2018/05/24:11:57:00 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.615
+2018-05-24_11:58:01.20330 localhost @ - - [2018/05/24:11:58:01 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.597
+2018-05-24_11:59:01.93420 localhost @ - - [2018/05/24:11:59:01 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.369
+2018-05-24_12:00:02.74799 localhost @ - - [2018/05/24:12:00:02 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.328
+2018-05-24_12:01:03.65775 localhost @ - - [2018/05/24:12:01:03 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.581
+2018-05-24_12:02:05.48437 localhost @ - - [2018/05/24:12:02:05 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 1.379
+2018-05-24_12:03:06.23392 localhost @ - - [2018/05/24:12:03:06 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.363
+2018-05-24_12:04:06.92150 localhost @ - - [2018/05/24:12:04:06 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.356
+2018-05-24_12:05:07.56525 localhost @ - - [2018/05/24:12:05:07 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.333
+2018-05-24_12:06:08.11327 localhost @ - - [2018/05/24:12:06:08 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.288
+2018-05-24_12:07:09.98463 localhost @ - - [2018/05/24:12:07:09 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 1.563
+2018-05-24_12:08:10.77111 localhost @ - - [2018/05/24:12:08:10 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.438
+2018-05-24_12:09:11.32768 localhost @ - - [2018/05/24:12:09:11 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.261
+2018-05-24_12:10:11.94223 localhost @ - - [2018/05/24:12:10:11 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.283
+2018-05-24_12:11:13.70778 localhost @ - - [2018/05/24:12:11:13 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 1.447
+2018-05-24_12:12:14.66322 localhost @ - - [2018/05/24:12:12:14 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.689
+2018-05-24_12:13:15.95310 localhost @ - - [2018/05/24:12:13:15 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.996
+2018-05-24_12:14:16.52454 localhost @ - - [2018/05/24:12:14:16 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.270
+2018-05-24_12:15:17.22508 localhost @ - - [2018/05/24:12:15:17 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.384
+2018-05-24_12:16:17.89686 localhost @ - - [2018/05/24:12:16:17 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.355
+2018-05-24_12:17:18.73067 localhost @ - - [2018/05/24:12:17:18 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.515
+2018-05-24_12:18:19.56969 localhost @ - - [2018/05/24:12:18:19 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.543
+2018-05-24_12:19:20.12682 localhost @ - - [2018/05/24:12:19:20 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.308
+2018-05-24_12:20:21.65741 localhost @ - - [2018/05/24:12:20:21 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 1.261
+2018-05-24_12:21:22.24596 localhost @ - - [2018/05/24:12:21:22 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.297
+2018-05-24_12:22:22.97512 localhost @ - - [2018/05/24:12:22:22 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.355
+2018-05-25_22:41:17.31515 time="2018-05-25T22:41:17Z" level=error msg=error error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused" method=GET uri=/help
+2018-05-25_22:41:17.41504 localhost @ - - [2018/05/25:22:41:17 +0000] "GET /help HTTP/1.1" 502 2916 "" "curl/7.56.1" 0.188
+2018-05-25_22:42:17.93381 time="2018-05-25T22:42:17Z" level=error msg=error error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused" method=GET uri=/help
+2018-05-25_22:42:17.93412 localhost @ - - [2018/05/25:22:42:17 +0000] "GET /help HTTP/1.1" 502 2916 "" "curl/7.56.1" 0.003
+2018-05-25_22:43:20.49916 localhost @ - - [2018/05/25:22:43:20 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 2.161
+2018-05-25_22:44:22.07743 localhost @ - - [2018/05/25:22:44:22 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 1.254
+2018-05-25_22:45:22.81210 localhost @ - - [2018/05/25:22:45:22 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.415
+2018-05-25_22:46:24.24228 localhost @ - - [2018/05/25:22:46:24 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 1.148
+2018-05-25_22:46:54.81759 10.113.101.229:780 @ - - [2018/05/25:22:46:54 +0000] "GET / HTTP/1.1" 302 105 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 0.097
+2018-05-25_22:46:55.64571 10.113.101.229:780 @ - - [2018/05/25:22:46:55 +0000] "GET /users/sign_in HTTP/1.1" 200 10614 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 0.805
+2018-05-25_22:47:01.45699 10.113.101.229:780 @ - - [2018/05/25:22:47:01 +0000] "POST /users/sign_in HTTP/1.1" 302 92 "http://10.113.101.229:780/users/sign_in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 1.217
+2018-05-25_22:47:03.10988 10.113.101.229:780 @ - - [2018/05/25:22:47:03 +0000] "GET / HTTP/1.1" 200 19995 "http://10.113.101.229:780/users/sign_in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 1.630
+2018-05-25_22:47:03.24529 time="2018-05-25T22:47:03Z" level=info msg="Send static file" encoding=gzip file=/opt/gitlab/embedded/service/gitlab-rails/public/assets/icons-fe86f87a3d244c952cc0ec8d7f88c5effefcbe454d751d8449d4a1a32aaaf9a0.svg method=GET uri=/assets/icons-fe86f87a3d244c952cc0ec8d7f88c5effefcbe454d751d8449d4a1a32aaaf9a0.svg
+2018-05-25_22:47:03.26997 10.113.101.229:780 @ - - [2018/05/25:22:47:03 +0000] "GET /assets/icons-fe86f87a3d244c952cc0ec8d7f88c5effefcbe454d751d8449d4a1a32aaaf9a0.svg HTTP/1.1" 200 24493 "http://10.113.101.229:780/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 0.025
+2018-05-25_22:47:03.30439 time="2018-05-25T22:47:03Z" level=info msg="Send static file" encoding= file=/opt/gitlab/embedded/service/gitlab-rails/public/assets/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2 method=GET uri=/assets/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2
+2018-05-25_22:47:03.32017 10.113.101.229:780 @ - - [2018/05/25:22:47:03 +0000] "GET /assets/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2 HTTP/1.1" 200 77160 "http://10.113.101.229:780/assets/application-c8a4c6d1ee3edef81502a8a16847ee932a94df7a69ec1f8dd622c00b0d20b9ff.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" 0.017
+2018-05-25_22:47:25.05423 localhost @ - - [2018/05/25:22:47:25 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.429
+2018-05-25_22:48:26.97279 localhost @ - - [2018/05/25:22:48:26 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 1.574
+2018-05-25_22:49:27.63486 localhost @ - - [2018/05/25:22:49:27 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.339
+2018-05-25_22:50:29.41480 localhost @ - - [2018/05/25:22:50:29 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 1.440
+2018-05-25_22:51:30.11519 localhost @ - - [2018/05/25:22:51:30 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.371
+2018-05-25_22:52:31.79896 localhost @ - - [2018/05/25:22:52:31 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 1.410
+2018-05-25_22:53:32.73703 localhost @ - - [2018/05/25:22:53:32 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.612
+2018-05-25_22:54:33.72370 localhost @ - - [2018/05/25:22:54:33 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.454
+2018-05-25_22:55:35.15423 localhost @ - - [2018/05/25:22:55:35 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 1.032
+2018-05-25_22:56:35.86637 localhost @ - - [2018/05/25:22:56:35 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.363
+2018-05-25_22:57:36.89538 localhost @ - - [2018/05/25:22:57:36 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.725
+2018-05-25_22:58:37.88423 localhost @ - - [2018/05/25:22:58:37 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.538
+2018-05-25_22:59:38.94294 localhost @ - - [2018/05/25:22:59:38 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.582
+2018-05-25_23:00:39.76299 localhost @ - - [2018/05/25:23:00:39 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.516
+2018-05-25_23:01:40.54297 localhost @ - - [2018/05/25:23:01:40 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.464
+2018-05-25_23:02:42.35537 localhost @ - - [2018/05/25:23:02:42 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 1.474
+2018-05-25_23:03:43.14223 localhost @ - - [2018/05/25:23:03:43 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.444
+2018-05-25_23:04:45.09207 localhost @ - - [2018/05/25:23:04:45 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 1.518
+2018-05-25_23:05:45.78461 localhost @ - - [2018/05/25:23:05:45 +0000] "GET /help HTTP/1.1" 200 36167 "" "curl/7.56.1" 0.343
