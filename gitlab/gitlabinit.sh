@@ -105,8 +105,8 @@ fi
 gitlab-ctl tail &
 
 # Wait for SIGTERM
-cp -r /tmpconfig/config/* /etc/gitlab
-cp -r /tmpconfig/logs/* /var/log/gitlab
+#cp -r /tmpconfig/config/* /etc/gitlab
+#cp -r /tmpconfig/logs/* /var/log/gitlab
 cp -r /tmpconfig/data/* /var/opt/gitlab
 echo "copy"
 gitlab-ctl reconfigure
