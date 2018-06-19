@@ -41,11 +41,10 @@ sed -i "s/thewebmasterlogin/$WEBMASTER_LOGIN/g" /init-users.php
 sed -i "s/thewebmasterpassword/$WEBMASTER_PASSWORD/g" /init-users.php
 sed -i "s/thewebsiteurl/$PROJECT_DOMAIN/g" /init-users.php
 
-php init-users.php
-
 cd /etc/apache2/sites-available
 a2ensite wordpress.conf
 a2dissite 000-default.conf
 
+php init-users.php
 
 /usr/sbin/apache2ctl -D FOREGROUND
