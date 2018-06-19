@@ -45,6 +45,8 @@ cd /etc/apache2/sites-available
 a2ensite wordpress.conf
 a2dissite 000-default.conf
 
+service apache2 reload
+
 php init-users.php
 
 /usr/sbin/apache2ctl -D FOREGROUND
