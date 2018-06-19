@@ -19,7 +19,7 @@ do {
 
 
 $user_id = wp_create_user( 'thewebmasterlogin', 'thewebmasterpassword', 'thewebmasterlogin@thewebsiteurl' );
-update_user_meta( $user_id, 'wp_capabilities', 'a:1:{s:13:"administrator";s:1:"1";}');
+update_user_meta( $user_id, 'wp_capabilities', 'a:1:{s:13:"administrator";b:1;}');
 update_user_meta( $user_id, 'wp_user_level', '10');
 
 $mysql->close();
